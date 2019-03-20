@@ -1,12 +1,8 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init(e) {
- document.body.addEventListener ('keydown', e => onKeyDownHandler(e)); {
-    return alert('Congrats!')
-  }
-  
+ document.body.addEventListener ('keydown', e => onKeyDownHandler(e));
 }
-
 
 let index = 0;
  
@@ -17,7 +13,7 @@ function onKeyDownHandler(e) {
     index++;
  
     if (index === code.length) {
-      alert("Hurray!");
+      alert("Congrats!");
  
       index = 0;
     }
